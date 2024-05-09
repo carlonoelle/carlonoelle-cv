@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/manager/js/script.js",
-      "destination": "https://plausible.io/js/script.js"
-    },
-    {
-      "source": "/manager/api/event",
-      "destination": "https://plausible.io/api/event"
+      "source": "/stats/:match*",
+      "destination": "https://analytics.codeattack.io/:match*"
     }
   ]
 }

@@ -26,6 +26,8 @@ import { contact } from '../../data/contact.json';
                           <a
                             href={template.link}
                             class="underline hover:no-underline duration-200 after:content-['_↗']"
+                            data-umami-event="website-click"
+                            data-umami-event-url={template.link}
                           >
                             {template.title}
                           </a>
@@ -35,6 +37,8 @@ import { contact } from '../../data/contact.json';
                       {template.locationLink && (
                         <a
                           href={template.locationLink}
+                          data-umami-event="location-click"
+                          data-umami-event-url={template.locationLink}
                           class="underline hover:no-underline duration-200 after:content-['_↗']"
                         >
                           {template.location}
@@ -68,6 +72,8 @@ import { contact } from '../../data/contact.json';
                         <a
                           href={template.link}
                           title={template.type}
+                          data-umami-event="contact-click"
+                          data-umami-event-url={template.link}
                           target="_blank"
                           class="underline hover:no-underline duration-200 after:content-['_↗']"
                         >
