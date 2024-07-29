@@ -1,3 +1,11 @@
+---
+function calculateYears(beginning) { // beginning is a date
+   var ageDifMs = Date.now() - beginning;
+   var ageDate = new Date(ageDifMs); // miliseconds from epoch
+   return Math.abs(ageDate.getUTCFullYear() - 1970);
+ }
+---
+
 <section>
   <div class="mx-auto max-w-7xl px-8 py-12 lg:pt-24">
     <div class="mx-auto max-w-xl">
@@ -37,29 +45,23 @@
           <p class="text-black dark:text-white">About</p>
           <div class="text-neutral-500 dark:text-neutral-400 space-y-3 mt-3">
             <p>
-              For the past 7 years I have been hands on with real world problem
-              solving in enterprise and sideproject IT needs. My interest in
-              programming started besides school, when I was 14 years old.
-              Starting at age 16, i could work part time as a software developer
-              @ TIMETOACT, where I was able to gain a lot of experience in the
-              field of software development.
+              Over the past {calculateYears(1468188000000)} years, I have gained hands-on experience in solving real-world IT problems through 
+              both enterprise projects and side projects. My interest in programming began when I was 14 years old, 
+              and by the age of 16, I started working part-time as a software developer at TIMETOACT. After high school, 
+              I began my apprenticeship and studies, continuing to work full-time during and after that period. Since 
+              then, I have accumulated substantial experience in software development.
             </p>
             <p>
-              My speciality is in the field of web and mobile development, where
-              I have been working with a wide range of technologies and
-              frameworks. My main focus is on React with NextJS, React Native
-              and NodeJS, all of which written in TypeScript. Databases i use
-              regularely are PostgreSQL and MongoDB. To complete the buzzword
-              bingo, i also have experience with Docker, Kubernetes, AWS, Azure,
-              GCP (my favorit), CI/CD, Terraform, Serverless, and many more. I
-              do not like PHP or any more low level languages, since i want to
-              iterate fast and stay cutting edge generally.
+              My expertise lies in web and mobile development, utilizing a wide range of technologies 
+              and frameworks. I primarily focus on React with Next.js, React Native, and Node.js, all 
+              written in TypeScript. The databases I commonly use are PostgreSQL and MongoDB. Additionally, I 
+              have experience with Docker, Kubernetes, AWS, Azure, GCP, CI/CD, Terraform, Serverless, 
+              and many other technologies or tools.
             </p>
             <p>
-              I am skilled in project management through agile methodologies
-              (SCRUM), used to work in a team and have basic to advanced
-              experience with the most industry relevant tools out there like
-              Jira, Confluence, Gitlab, Github, Slack, Teams, etc.
+              I am proficient in project management through agile methodologies (SCRUM), 
+              accustomed to working in teams, and have basic to advanced experience 
+              with industry-standard tools such as Jira, Confluence, GitLab, GitHub, Slack, Teams, and more.
             </p>
           </div>
         </div>
