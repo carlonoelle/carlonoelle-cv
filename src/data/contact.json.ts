@@ -15,9 +15,4 @@ export const contact: IContactTemplate[] = [
     type: 'Email',
     title: 'hello@carlonoelle.de',
   },
-  {
-    link: 'https://www.xing.com/profile/Carlo_Noelle',
-    type: 'Xing',
-    title: 'Carlo_Noelle',
-  },
 ];

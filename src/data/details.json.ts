@@ -15,8 +15,8 @@ export const details: IDetailsTemplate[] = [
   },
   {
     title: 'Software Engineer (Full time)',
-    location: 'Cologne - TIMETOACT Software & Consulting GmbH',
-    locationLink: 'https://www.timetoact.de',
+    location: 'Cologne - ATVANTAGE GmbH (was TIMETOACT Software & Consulting GmbH)',
+    locationLink: 'https://atvantage.com',
     date: '2020 - ongoing',
   },
   {
@@ -26,13 +26,19 @@ export const details: IDetailsTemplate[] = [
   },
   {
     title: 'Ausbildung Fachinformatiker für Anwendungsentwicklung',
-    location: 'Cologne - TIMETOACT Software & Consulting GmbH',
-    locationLink: 'https://www.timetoact.de',
+    location: 'Cologne - ATVANTAGE GmbH (was TIMETOACT Software & Consulting GmbH)',
+    locationLink: 'https://atvantage.com',
     date: '2018 - 2020',
   },
   {
     title: 'Abitur',
     location: 'Cologne - Gymnasium Rodenkirchen',
     date: '2018',
+  },
+  {
+    title: 'Student Job as IT Developer',
+    location: 'Cologne - ATVANTAGE GmbH (was TIMETOACT Software & Consulting GmbH)',
+    locationLink: 'https://atvantage.com',
+    date: '2015 - 2018',
   },
 ];
